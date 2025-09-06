@@ -125,10 +125,8 @@
 ```
 
 ```
-
 ## 📁 Project Structure
 
-```
 autonomous-ml-agent/
 ├── autonomous_ml/           # Core ML agent package
 │   ├── core.py             # Main orchestrator
@@ -144,9 +142,9 @@ autonomous-ml-agent/
 ├── pyproject.toml          # Project configuration
 └── README.md              # This file
 ```
----
 
 **Made with ❤️ by Hasibur Rashid**
 
 
 *Transform your data into actionable insights with the power of autonomous machine learning!*
+
