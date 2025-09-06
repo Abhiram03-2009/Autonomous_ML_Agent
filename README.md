@@ -113,8 +113,8 @@
 
 ```
 ┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
-│   Web Interface │    │  LLM Orchestrator │    │  ML Pipeline    │
-│   (Streamlit)   │◄──►│   (Strategy)      │◄──►│  (Execution)    │
+│   Web Interface │    │  LLM Orchestrator|    │  ML Pipeline    │
+│   (Streamlit)   │◄──►│   (Strategy)     |◄──►│  (Execution)    │
 └─────────────────┘    └──────────────────┘    └─────────────────┘
          │                       │                       │
          ▼                       ▼                       ▼
@@ -146,3 +146,4 @@ autonomous-ml-agent/
 **Made by Abhiram Kaakarla**
 
 *Transform your data into actionable insights with the power of autonomous machine learning!*
+
