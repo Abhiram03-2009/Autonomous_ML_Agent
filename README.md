@@ -1,12 +1,8 @@
 # 🤖 Autonomous ML Agent
 
-> **An intelligent machine learning platform that automatically trains and optimizes models using LLM orchestration, providing real-world predictions with meaningful insights.**
+**An intelligent machine learning platform that automatically trains and optimizes models using LLM orchestration, providing real-world predictions with meaningful insights.**
 
-[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
-[![Streamlit](https://img.shields.io/badge/Streamlit-Web%20Interface-red.svg)](https://streamlit.io)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-
-## 🎯 Problem We're Solving
+## 🎯 Problem Being Solved
 
 **Traditional ML Development Challenges:**
 - ⏰ **Time-consuming**: Manual model selection and hyperparameter tuning takes days/weeks
@@ -16,7 +12,7 @@
 - 🎲 **Trial & Error**: No systematic approach to model optimization
 - 📈 **Performance Uncertainty**: Hard to know if you've found the best solution
 
-## 💡 Our Solution
+## 💡 The Solution
 
 **Autonomous ML Agent Features:**
 - 🚀 **Automated Pipeline**: End-to-end ML workflow in minutes, not days
@@ -38,8 +34,8 @@
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/rabu20367/autonomous-ml-agent.git
-   cd autonomous-ml-agent
+   git clone https://github.com/Abhiram03-2009/Autonomous_ML_Agent.git
+   cd Autonomous_ML_agent
    ```
 
 2. **Create virtual environment**
@@ -128,105 +124,6 @@
 └─────────────────┘    └──────────────────┘    └─────────────────┘
 ```
 
-## 🧠 Key Components
-
-### **1. LLM Orchestrator**
-- Generates structured experiment plans
-- Adapts strategies based on dataset characteristics
-- Learns from past experiments for better recommendations
-
-### **2. Plan Executor**
-- Converts JSON plans to executable ML pipelines
-- Handles preprocessing, model training, and evaluation
-- Manages hyperparameter optimization with time budgets
-
-### **3. Experience Database**
-- Stores past experiment results and metadata
-- Enables similarity-based strategy generation
-- Powers meta-learning for improved performance
-
-### **4. Web Interface**
-- Interactive Streamlit dashboard
-- Real-time progress tracking
-- Built-in model testing and prediction interface
-
-## 📈 Features
-
-### **Automated ML Pipeline**
-- ✅ Data preprocessing and cleaning
-- ✅ Feature engineering and selection
-- ✅ Multiple algorithm testing (Logistic Regression, Random Forest, Gradient Boosting, kNN, MLP)
-- ✅ Hyperparameter optimization (Grid Search, Random Search, Bayesian Optimization)
-- ✅ Cross-validation and performance evaluation
-
-### **Intelligent Insights**
-- ✅ Feature importance analysis
-- ✅ Model performance comparison
-- ✅ Business-relevant interpretations
-- ✅ Natural language explanations
-
-### **Production Ready**
-- ✅ Model serialization and export
-- ✅ API-ready code generation
-- ✅ Docker containerization support
-- ✅ Comprehensive documentation
-
-## 🎯 Example Results
-
-### **Titanic Dataset Results**
-```
-🏆 Best Model: Random Forest
-📊 Accuracy: 95.2%
-🎯 Precision: 94.8%
-📈 Recall: 95.1%
-⚡ F1-Score: 94.9%
-
-💡 Key Insights:
-• Female passengers had 3.2x higher survival rate
-• First class passengers had 2.1x better survival chances
-• Age < 16 increased survival probability by 40%
-```
-
-### **Iris Dataset Results**
-```
-🏆 Best Model: Gradient Boosting
-📊 Accuracy: 98.7%
-🎯 Precision: 98.5%
-📈 Recall: 98.7%
-⚡ F1-Score: 98.6%
-
-💡 Key Insights:
-• Petal length is the most important feature (45% importance)
-• Sepal width shows clear species separation
-• Setosa is most easily distinguishable
-```
-
-## 🔧 Configuration
-
-### **Environment Variables**
-```bash
-# Optional: Set custom model parameters
-export MAX_EXPERIMENTS=10
-export TEST_SIZE=0.2
-export RANDOM_STATE=42
-```
-
-### **Custom Models**
-Add your own models by extending the model registry in `autonomous_ml/models.py`:
-
-```python
-from sklearn.ensemble import ExtraTreesClassifier
-
-MODEL_REGISTRY = {
-    'extra_trees': {
-        'class': ExtraTreesClassifier,
-        'params': {
-            'n_estimators': [50, 100, 200],
-            'max_depth': [None, 10, 20],
-            'min_samples_split': [2, 5, 10]
-        }
-    }
-}
 ```
 
 ## 📁 Project Structure
@@ -247,77 +144,9 @@ autonomous-ml-agent/
 ├── pyproject.toml          # Project configuration
 └── README.md              # This file
 ```
-
-## 🧪 Testing
-
-### **Run Tests**
-```bash
-# Run all tests
-python -m pytest tests/
-
-# Run with coverage
-python -m pytest tests/ --cov=autonomous_ml
-```
-
-### **Test Datasets**
-The project includes sample datasets for testing:
-- `examples/datasets/iris.csv` - Iris flower classification
-- `examples/datasets/titanic.csv` - Titanic survival prediction
-- `examples/datasets/housing.csv` - Boston housing prices
-
-## 🚀 Deployment
-
-### **Local Development**
-```bash
-streamlit run simple_demo.py --server.port 8502
-```
-
-### **Production Deployment**
-```bash
-# Using Docker
-docker build -t autonomous-ml-agent .
-docker run -p 8502:8502 autonomous-ml-agent
-
-# Using FastAPI
-python -m autonomous_ml.web_api
-```
-
-## 🤝 Contributing
-
-We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
-
-### **Development Setup**
-```bash
-git clone https://github.com/rabu20367/autonomous-ml-agent.git
-cd autonomous-ml-agent
-pip install -e ".[dev]"
-pre-commit install
-```
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- **scikit-learn** for machine learning algorithms
-- **Streamlit** for the web interface
-- **Optuna** for hyperparameter optimization
-- **Pandas** for data manipulation
-- **NumPy** for numerical computations
-
-## 📞 Support
-
-- 📧 **Email**: atm.hasibur.rashid20367@gmail.com
-- 🐛 **Issues**: [GitHub Issues](https://github.com/rabu20367/autonomous-ml-agent/issues)
-- 💬 **Discussions**: [GitHub Discussions](https://github.com/rabu20367/autonomous-ml-agent/discussions)
-
-## 🌟 Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=rabu20367/autonomous-ml-agent&type=Date)](https://star-history.com/#rabu20367/autonomous-ml-agent&Date)
-
 ---
 
 **Made with ❤️ by Hasibur Rashid**
+
 
 *Transform your data into actionable insights with the power of autonomous machine learning!*
