@@ -143,8 +143,6 @@ autonomous-ml-agent/
 └── README.md              # This file
 ```
 
-**Made with ❤️ by Hasibur Rashid**
-
+**Made by Abhiram Kaakarla**
 
 *Transform your data into actionable insights with the power of autonomous machine learning!*
-
