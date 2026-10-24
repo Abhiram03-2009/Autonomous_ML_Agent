@@ -1,3 +1,5 @@
+> **Attribution:** This repository is a copy of [Autonomous-ML-Agent](https://github.com/rabu20367/Autonomous-ML-Agent) by Hasibur Rashid (rabu20367), uploaded for personal study and experimentation. It is not my original work. The original is released under the MIT License; the license file is included in [LICENSE](LICENSE).
+
 # 🤖 Autonomous ML Agent
 
 **An intelligent machine learning platform that automatically trains and optimizes models using LLM orchestration, providing real-world predictions with meaningful insights.**
@@ -143,7 +145,7 @@ autonomous-ml-agent/
 └── README.md              # This file
 ```
 
-**Made by Abhiram Kaakarla**
+**Copied for study by Abhiram Kaakarla; original by Hasibur Rashid (rabu20367)**
 
 *Transform your data into actionable insights with the power of autonomous machine learning!*
 
